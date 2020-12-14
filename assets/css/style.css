@@ -1,0 +1,42 @@
+:root {
+    --primary: #44bcd8;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.hero {
+    background-color: black;
+    padding: 3% 4%;
+    max-height: 100px;
+    
+}
+
+.app-title {
+    color:white;
+    text-align: center;
+    margin: 2px;
+    padding: 0;
+}
+
+.search-btn {
+    margin: 7px 0;
+    padding: 6px 5px;
+    border-radius: .3rem;
+    background-color: var(--primary);
+}
+
+.user-input {
+    margin: 7px 2px;
+    padding: 6px 5px;
+    border-radius: .3rem;
+}
+
+h2 {
+    padding: 0;
+    margin: 10px;
+}

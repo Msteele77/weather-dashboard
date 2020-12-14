@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>City Forecast</title>
+</head>
+
+<body class="flex-column min-100-vh">
+    <header class="hero">
+        <h1 class="app-title">Weather Dashboard</h1>
+    </header>
+
+
+
+
+    <main class="container-fluid full-width">
+
+        
+        <div class="row no-gutters">
+            <!--search and history section-->
+            <div class="col-3 search-column">
+                <h2 class="form-label" for="city-search">Search for a city:</h2>
+                <!--search bar-->
+                <form id="user-form">
+                    <input name="city-search" id="city-search" type="text" class="form-input"/>
+                    <button type="submit" class="search-btn"><span class="oi oi-magnifying-glass"></span></button>
+                </form>
+                <!--displays the search history-->
+                <div class="search-history"></div>
+            </div>
+
+
+            <!--results section-->
+            <div class="col-9">
+                <div class="results-container">
+                <!--displays current weather-->
+                <div class="row">
+                    <div class="col-12" id="current-weather">
+
+                    </div>
+                </div>
+                <!--displays 5 day forecast-->
+                <div class="row" id="5day-forecast">
+                    <h2>5-Day Forecast</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script defer src="./assets/js/script.js"></script>
+</body>
+</html>
