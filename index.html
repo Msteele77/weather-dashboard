@@ -25,10 +25,11 @@
             <!--search and history section-->
             <div class="col-3 search-column">
                 <h2 class="form-label" for="city-search">Search for a city:</h2>
+                <div id="incorrect-warning"></div>
                 <!--search bar-->
                 <form id="user-form">
                     <input name="city-search" id="city-search" type="text" class="form-input"/>
-                    <button type="submit" class="search-btn"><span class="oi oi-magnifying-glass"></span></button>
+                    <button type="submit" id="search-btn"><span class="oi oi-magnifying-glass"></span></button>
                 </form>
                 <!--displays the search history-->
                 <div class="search-history"></div>
